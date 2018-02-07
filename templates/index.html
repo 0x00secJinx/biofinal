@@ -1,0 +1,81 @@
+{% extends "bootstrap/base.html" %}
+
+{% block title %}
+Introduction
+{% endblock %}
+
+{% block metas %}
+<meta charset="utf-8">
+<meta name="description" content="">
+<meta name="author" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+{% endblock %}
+
+{% block styles %}
+<link rel="stylesheet" href="{{url_for('.static', filename='css/default.css')}}">
+<link rel="stylesheet" href="{{url_for('.static', filename='css/layout.css')}}">
+<link rel="stylesheet" href="{{url_for('.static', filename='css/media-queries.css')}}">
+<link rel="stylesheet" href="{{url_for('.static', filename='css/magnific-popup.css')}}">
+<link rel="shortcut icon" href="{{url_for('.static', filename='favicon.png')}}" >
+{% endblock %}
+
+{% block content %}
+<script src="{{url_for('.static', filename='js/modernizr.js')}}"></script>
+   <header id="home">
+
+      <nav id="nav-wrap">
+
+         <a class="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
+	      <a class="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
+
+         <ul id="nav" class="nav">
+            <li class="current"><a class="smoothscroll" href="/">Home</a></li>
+            <li><a class="smoothscroll" href="#introduction">Introduction</a></li>
+	         <li><a class="smoothscroll" href="/experiment">Experiment</a></li>
+            <li><a class="smoothscroll" href="/artifacts">Artifacts</a></li>
+         </ul>
+
+      </nav>
+
+      <div class="row banner">
+         <div class="banner-text">
+            <h1 class="responsive-headline">AP Bio Final Experiment</h1>
+         </div>
+      </div>
+
+      <p class="scrolldown">
+         <a class="smoothscroll" href="#introduction"><i class="icon-down-circle"></i></a>
+      </p>
+
+   </header>
+   <section id="introduction">
+
+      <div class="row">
+
+         <div class="nine columns main-col">
+
+            <h2>Introduction</h2>
+
+            <p>This website is for an AP Biology Final Project. Artifacts on this e-portfolio come from my experiences
+               in this class. This page also provides the experimentation of an experiment I performed regarding to one
+               of the topics we covered in this class.
+            </p>
+            <p>{{quote}}</p>
+
+         </div>
+
+      </div>
+
+   </section>
+
+   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+   <script>window.jQuery || document.write('<script src="js/jquery-1.10.2.min.js"><\/script>')</script>
+   <script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>
+
+   <script src="js/jquery.flexslider.js"></script>
+   <script src="js/waypoints.js"></script>
+   <script src="js/jquery.fittext.js"></script>
+   <script src="js/magnific-popup.js"></script>
+   <script src="js/init.js"></script>
+
+{% endblock %}
