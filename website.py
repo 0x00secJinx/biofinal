@@ -7,7 +7,11 @@ quotes = [
  'Which biochemicals wash up on beaches? Nucleotides',
  'Where do hippos go to university? Hippocampus',
  'Biology is the only science in which multiplication is the same thing as division.',
- 'It has recently been discovered that research causes cancer in rats.']
+ 'It has recently been discovered that research causes cancer in rats.',
+ 'Why was the marine biologist so happy? He found his porpoise',
+ 'Bacteria is the only culture some people have',
+ 'What did one cell say to his sister cell that stepped on his toe? mitosis',
+ 'Two blood cells met and fell in love... but alas it was all in vein']
 app = Flask(__name__)
 Bootstrap(app)
 app.config['EXPLAIN_TEMPLATE_LOADING'] = True
