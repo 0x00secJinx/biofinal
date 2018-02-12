@@ -1,7 +1,7 @@
 {% extends "bootstrap/base.html" %}
 
 {% block title %}
-Introduction
+Introduction - AP Bio e-portfolio
 {% endblock %}
 
 {% block metas %}
@@ -43,26 +43,29 @@ Introduction
          </div>
       </div>
 
-      <p class="scrolldown">
-         <a class="smoothscroll" href="#introduction"><i class="icon-down-circle"></i></a>
-      </p>
-
    </header>
    <section id="introduction">
 
       <div class="row">
 
-         <div class="nine columns main-col">
+         <div class="six columns main-col">
 
             <h2>Introduction</h2>
 
-            <p>My name is Mason and this e-portfolio is for an AP Biology Final Project. Artifacts on this e-portfolio
-               come from my experiences in this class. This website also provides the record of an experiment I
-               performed regarding one of the topics we covered in this class.
+            <p>My name is Mason and this e-portfolio is for an AP Biology Final
+               Project. Artifacts on this e-portfolio come from my experiences
+               in this class. This website also provides the record of my final experiment
+               I did for this class.
             </p>
-	    <h2>A Quick Little Joke:</h2>
+
+            <h2>A Quick Little Joke:</h2>
+
             <p>{{quote}}</p>
 
+         </div>
+
+         <div class="six columns main-col">
+            <img src="{{url_for('.static', filename='images/home_footer.jpeg')}}">
          </div>
 
       </div>

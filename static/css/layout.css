@@ -203,6 +203,10 @@ ul#nav li.current a { color: #F06000; }
    font-size: 20px;
 }
 
+#half div{
+  width: 12px;
+}
+
 
 /* ------------------------------------------------------------------ */
 /* d. Resume Section
