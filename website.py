@@ -33,5 +33,10 @@ def artifacts():
     return render_template('artifacts.html')
 
 
+@app.route('/admin', methods=['GET', 'POST'])
+def admin():
+    return render_template('admin.html')
+
+
 if __name__ == '__main__':
     app.run()
