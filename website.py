@@ -36,6 +36,10 @@ def artifacts():
 @app.route('/admin', methods=['GET', 'POST'])
 def admin():
     return render_template('admin.html')
+ 
+@app.route('/remind', methods=['GET', 'POST'])
+def remind():
+ return render_template('remind.html')
 
 
 if __name__ == '__main__':
