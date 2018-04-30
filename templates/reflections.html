@@ -1,7 +1,7 @@
 {% extends "bootstrap/base.html" %}
 
 {% block title %}
-Introduction - AP Bio e-portfolio
+Reflections - AP Bio e-portfolio
 {% endblock %}
 
 {% block metas %}
@@ -19,13 +19,11 @@ Introduction - AP Bio e-portfolio
 {% block styles %}
 <link rel="stylesheet" href="{{url_for('.static', filename='css/default.css')}}">
 <link rel="stylesheet" href="{{url_for('.static', filename='css/layout.css')}}">
-<!--<link rel="stylesheet" href="{{url_for('.static', filename='css/media-queries.css')}}">-->
-<!--<link rel="stylesheet" href="{{url_for('.static', filename='css/magnific-popup.css')}}">-->
 <link rel="shortcut icon" href="{{url_for('.static', filename='favicon.png')}}" >
 {% endblock %}
 
 {% block content %}
-<!--<script src="{{url_for('.static', filename='js/modernizr.js')}}"></script>-->
+<script src="{{url_for('.static', filename='js/modernizr.js')}}"></script>
    <header id="home">
 
       <nav id="nav-wrap">
@@ -34,18 +32,18 @@ Introduction - AP Bio e-portfolio
 	      <a class="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
 
          <ul id="nav" class="nav">
-            <li class="current"><a class="smoothscroll" href="/">Home</a></li>
+            <li><a class="smoothscroll" href="/">Home</a></li>
             <li><a class="smoothscroll" href="#introduction">Introduction</a></li>
 	         <li><a class="smoothscroll" href="/experiment">Experiment</a></li>
             <li><a class="smoothscroll" href="/artifacts">Artifacts</a></li>
-            <li><a class="smoothscroll" href="/reflections">Reflections</a></li>
+            <li class="current"><a class="smoothscroll" href="/reflections">Reflections</a></li>
          </ul>
 
       </nav>
 
       <div class="row banner">
          <div class="banner-text">
-            <h1 class="responsive-headline">AP Bio Final Project<br /> E-portfolio</h1>
+            <h1 class="responsive-headline">Reflections</h1>
 		 <p>Work in Progress</p>
          </div>
       </div>
@@ -55,35 +53,19 @@ Introduction - AP Bio e-portfolio
 
       <div class="row">
 
-         <div class="six columns main-col">
-
-            <h2>Introduction</h2>
-
-            <p>My name is Mason and this e-portfolio is for an AP Biology Final
-               Project. Artifacts on this e-portfolio come from my experiences
-               in this class. This website also provides the record of my final experiment
-               I did for this class.
-            </p>
-
-            <h2>A Quick Little Joke:</h2>
-
-            <p>{{quote}}</p>
-
-         </div>
-
-         <div class="six columns main-col">
-            <!--<img src="{{url_for('.static', filename='images/home_footer.jpeg')}}">-->
-		 <p>There will be an amazing picture here... I just need to find one...</p>
-         </div>
+        <div class="twelve columns main-col">
+        	<h2>Evolution:</h2>
+        	<p></p>
+        	<hr />
+        	<h2>Biology Debate:</h2>
+        	<p></p>
+        	<hr />
+        	<h2>Health and Body:</h2>
+        	<p></p>
+ 		</div>
 
       </div>
 
    </section>
-
-<!--
-   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-   <script>window.jQuery || document.write('<script src="js/jquery-1.10.2.min.js"><\/script>')</script>
-   <script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>
--->
 
 {% endblock %}

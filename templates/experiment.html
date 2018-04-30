@@ -17,10 +17,6 @@ Experiment - AP Bio e-portfolio
 <link rel="stylesheet" href="{{url_for('.static', filename='css/media-queries.css')}}">
 <link rel="stylesheet" href="{{url_for('.static', filename='css/magnific-popup.css')}}">
 <link rel="shortcut icon" href="{{url_for('.static', filename='favicon.png')}}" >
-table, th, td {
-	border: 1px solid black; 
-	border-collapse: collapse;
-}
 {% endblock %}
 
 {% block content %}
@@ -37,6 +33,7 @@ table, th, td {
             <li><a class="smoothscroll" href="/#introduction">Introduction</a></li>
 	         <li class="current"><a class="smoothscroll" href="#">Experiment</a></li>
             <li><a class="smoothscroll" href="/artifacts">Artifacts</a></li>
+            <li><a class="smoothscroll" href="/reflections">Reflections</a></li>
          </ul>
 
       </nav>
@@ -62,68 +59,70 @@ table, th, td {
 		    different strands of these H and N proteins usually and each one helps prevent the flu from these strands. Scientists use a technique called sequence alignment to try to get
 		    the best match possible for the yearly vaccine. BLAST (Basic Local Alignment Search Tool) is an online based bioinformatics tool for aligning sequences.
 	    </p>
+
             <table>
-		    <tr>
-			    <th>Influenza Season</th>
-			    <th>Subtypes Found</th>
-			    <th>Subtypes in Vaccines</th>
-		    </tr>
-		    <tr>
-			    <td>2012-2013</td>
-			    <td>A/California/7/2009 (H1N1)</td>
-			    <td>A/California/7/2009</td>
-		    </tr>
-		    <tr>
-			    <td></td>
-			    <td>A/Victoria/361/2011 (H3N2)</td>
-			    <td>A/Victoria/361/2011</td>
-		    </tr>
-		    <tr>
-			    <td></td>
-			    <td>B/Wisconsin/1/2010</td>
-			    <td>B/Wisconsin/1/2010</td>
-		    </tr>
-		    <tr>
-			    <td></td>
-			    <td><strong>B/Victoria/01/87</strong></td>
-			    <td></td>
-		    </tr>
-		    <tr>
-			    <td>2010-2011</td>
-			    <td>A/California/07/2009 (H1N1)</td>
-			    <td>A/California/07/2009</td>
-		    </tr>
-		    <tr>
-			    <td></td>
-			    <td>A/Perth/16/2009</td>
-			    <td>A/Perth/16/2009</td>
-		    </tr>
-		    <tr>
-			    <td></td>
-			    <td>B/Brisbane/60/2008 (H3N2)</td>
-			    <td>B/Brisbane/60/2008</td>
-		    </tr>
-		    <tr>
-			    <td>2006-2007</td>
-			    <td>A/New Caledonia/20/99 (H1N1)</td>
-			    <td>A/New Caledonia/20/99</td>
-		    </tr>
-		    <tr>
-			    <td></td>
-			    <td><strong>A/Solomon Islands/3/2006 (H1N1)</strong></td>
-			    <td></td>
-		    </tr>
-		    <tr>
-			    <td></td>
-			    <td>A/Wisconsin/67/2005 (H3N2)</td>
-			    <td>A/Wisconsin/67/2005</td>
-		    </tr>
-		    <tr>
-			    <td></td>
-			    <td><strong>B/Ohio/1/2005</strong></td>
-			    <td><strong>B/Malaysia/2506/2004</strong></td>
-		    </tr>
+          <tr>
+             <th>Influenza Season</th>
+             <th>Subtypes Found</th>
+             <th>Subtypes in Vaccines</th>
+          </tr>
+          <tr>
+             <td>2012-2013</td>
+             <td>A/California/7/2009 (H1N1)</td>
+             <td>A/California/7/2009</td>
+          </tr>
+          <tr>
+             <td></td>
+             <td>A/Victoria/361/2011 (H3N2)</td>
+             <td>A/Victoria/361/2011</td>
+          </tr>
+          <tr>
+             <td></td>
+             <td>B/Wisconsin/1/2010</td>
+             <td>B/Wisconsin/1/2010</td>
+          </tr>
+          <tr>
+             <td></td>
+             <td><strong>B/Victoria/01/87</strong></td>
+             <td></td>
+          </tr>
+          <tr>
+             <td>2010-2011</td>
+             <td>A/California/07/2009 (H1N1)</td>
+             <td>A/California/07/2009</td>
+          </tr>
+          <tr>
+             <td></td>
+             <td>A/Perth/16/2009</td>
+             <td>A/Perth/16/2009</td>
+          </tr>
+          <tr>
+             <td></td>
+             <td>B/Brisbane/60/2008 (H3N2)</td>
+             <td>B/Brisbane/60/2008</td>
+          </tr>
+          <tr>
+             <td>2006-2007</td>
+             <td>A/New Caledonia/20/99 (H1N1)</td>
+             <td>A/New Caledonia/20/99</td>
+          </tr>
+          <tr>
+             <td></td>
+             <td><strong>A/Solomon Islands/3/2006 (H1N1)</strong></td>
+             <td></td>
+          </tr>
+          <tr>
+             <td></td>
+             <td>A/Wisconsin/67/2005 (H3N2)</td>
+             <td>A/Wisconsin/67/2005</td>
+          </tr>
+          <tr>
+             <td></td>
+             <td><strong>B/Ohio/1/2005</strong></td>
+             <td><strong>B/Malaysia/2506/2004</strong></td>
+          </tr>
             </table>
+
          </div>
       </div>
    </section>

@@ -29,18 +29,22 @@ def experiment():
 
 
 @app.route('/artifacts', methods=['GET', 'POST'])
-def artifacts():
-    return render_template('artifacts.html')
-
+@app.route('/artifacts/<topic>', methods=['GET', 'POST'])
+def artifacts(topic="exp_evidence"):
+	template_to_render = "reflections/" + topic + ".html"
+	return render_template(template_to_render)
 
 @app.route('/admin', methods=['GET', 'POST'])
 def admin():
     return render_template('admin.html')
- 
+
 @app.route('/remind', methods=['GET', 'POST'])
 def remind():
- return render_template('remind.html')
+	return render_template('remind.html')
 
+@app.route('/reflections', methods=['GET', 'POST'])
+def reflections():
+	return render_template('reflections.html')
 
 if __name__ == '__main__':
     app.run()
