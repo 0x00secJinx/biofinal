@@ -1,0 +1,243 @@
+BLASTP 2.8.0+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro
+A. Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and
+David J. Lipman (1997), "Gapped BLAST and PSI-BLAST: a new
+generation of protein database search programs", Nucleic
+Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen
+F. Altschul, John C. Wootton, E. Michael Gertz, Richa
+Agarwala, Aleksandr Morgulis, Alejandro A. Schaffer, and
+Yi-Kuo Yu (2005) "Protein database searches using
+compositionally adjusted substitution matrices", FEBS J.
+272:5101-5109.
+
+
+RID: F1SYEPRH11N
+
+
+Query= AHG97058.1 neuraminidase [Influenza A virus
+(A/Wisconsin/67/2005(H3N2))]
+
+Length=469
+
+
+                                                                   Score     E
+Sequences producing significant alignments:                       (Bits)  Value
+
+AFH00640.1  neuraminidase [Influenza A virus (A/California/7/2...  964     0.0  
+
+ALIGNMENTS
+>AAZ38531.1 neuraminidase [Influenza A virus (A/New York/378/2005(H3N2))]
+ AAZ38586.1 neuraminidase [Influenza A virus (A/New York/379/2004(H3N2))]
+ AAZ38597.1 neuraminidase [Influenza A virus (A/New York/391/2005(H3N2))]
+ AAZ38641.1 neuraminidase [Influenza A virus (A/New York/396/2005(H3N2))]
+ AAZ38653.1 neuraminidase [Influenza A virus (A/New York/244/2004(H3N2))]
+ AAZ74444.1 neuraminidase [Influenza A virus (A/New York/357/2005(H3N2))]
+ AAZ74477.1 neuraminidase [Influenza A virus (A/New York/371/2004(H3N2))]
+ AAZ74543.1 neuraminidase [Influenza A virus (A/New York/383/2004(H3N2))]
+ AAZ74598.1 neuraminidase [Influenza A virus (A/New York/207/2004(H3N2))]
+ AAZ79633.1 neuraminidase [Influenza A virus (A/New York/365/2004(H3N2))]
+ AAZ79977.1 neuraminidase [Influenza A virus (A/New York/384/2005(H3N2))]
+ AAZ79988.1 neuraminidase [Influenza A virus (A/New York/385/2004(H3N2))]
+ ABA12743.1 neuraminidase [Influenza A virus (A/New York/319/2004(H3N2))]
+ ABA12786.1 neuraminidase [Influenza A virus (A/New York/394/2005(H3N2))]
+ ABA26703.1 neuraminidase [Influenza A virus (A/Christchurch/10/2004(H3N2))]
+ ABA26714.1 neuraminidase [Influenza A virus (A/Christchurch/13/2004(H3N2))]
+ ABA26736.1 neuraminidase [Influenza A virus (A/Christchurch/14/2004(H3N2))]
+ ABA26747.1 neuraminidase [Influenza A virus (A/Christchurch/89/2004(H3N2))]
+ ABA26758.1 neuraminidase [Influenza A virus (A/Christchurch/90/2004(H3N2))]
+ ABA26769.1 neuraminidase [Influenza A virus (A/Christchurch/184/2004(H3N2))]
+ ABA26780.1 neuraminidase [Influenza A virus (A/Ashburton/280/2004(H3N2))]
+ ABA26791.1 neuraminidase [Influenza A virus (A/Christchurch/297/2004(H3N2))]
+ ABA26802.1 neuraminidase [Influenza A virus (A/Christchurch/339/2004(H3N2))]
+ ABA42294.1 neuraminidase [Influenza A virus (A/New York/395/2005(H3N2))]
+ ABB46461.1 neuraminidase [Influenza A virus (A/New York/470/2004(H3N2))]
+ ABC42599.1 neuraminidase [Influenza A virus (A/Whanganui/128/2004(H3N2))]
+ ABC42610.1 neuraminidase [Influenza A virus (A/Bay of Plenty/279/2004(H3N2))]
+ ABC42621.1 neuraminidase [Influenza A virus (A/Bay of Plenty/332/2004(H3N2))]
+ ABC42632.1 neuraminidase [Influenza A virus (A/Tairawhiti/369/2004(H3N2))]
+ ABC42643.1 neuraminidase [Influenza A virus (A/Whanganui/417/2004(H3N2))]
+ ABC42654.1 neuraminidase [Influenza A virus (A/Canterbury/12/2004(H3N2))]
+ ABC42665.1 neuraminidase [Influenza A virus (A/Canterbury/18/2004(H3N2))]
+ ABC42676.1 neuraminidase [Influenza A virus (A/Canterbury/19/2004(H3N2))]
+ ABC42687.1 neuraminidase [Influenza A virus (A/Canterbury/20/2004(H3N2))]
+ ABC42698.1 neuraminidase [Influenza A virus (A/Canterbury/23/2004(H3N2))]
+ ABC42709.1 neuraminidase [Influenza A virus (A/Canterbury/102/2004(H3N2))]
+ ABC42720.1 neuraminidase [Influenza A virus (A/Canterbury/103/2004(H3N2))]
+ ABC42764.1 neuraminidase [Influenza A virus (A/Canterbury/107/2004(H3N2))]
+ ABC42775.1 neuraminidase [Influenza A virus (A/Canterbury/201/2004(H3N2))]
+ ABC42786.1 neuraminidase [Influenza A virus (A/Canterbury/202/2004(H3N2))]
+ ABC42797.1 neuraminidase [Influenza A virus (A/Canterbury/205/2004(H3N2))]
+ ABC42808.1 neuraminidase [Influenza A virus (A/Canterbury/206/2004(H3N2))]
+ ABC42819.1 neuraminidase [Influenza A virus (A/Canterbury/209/2004(H3N2))]
+ ABC42852.1 neuraminidase [Influenza A virus (A/Canterbury/311/2004(H3N2))]
+ ABC42863.1 neuraminidase [Influenza A virus (A/Canterbury/315/2004(H3N2))]
+ ABC43130.1 neuraminidase [Influenza A virus (A/Whanganui/129/2004(H3N2))]
+ ABC43141.1 neuraminidase [Influenza A virus (A/Bay of Plenty/383/2004(H3N2))]
+ ABC43152.1 neuraminidase [Influenza A virus (A/Whanganui/386/2004(H3N2))]
+ ABC43163.1 neuraminidase [Influenza A virus (A/Canterbury/11/2004(H3N2))]
+ ABC43174.1 neuraminidase [Influenza A virus (A/Canterbury/16/2004(H3N2))]
+ ABC43478.1 neuraminidase [Influenza A virus (A/Canterbury/21/2004(H3N2))]
+ ABC43489.1 neuraminidase [Influenza A virus (A/Canterbury/24/2004(H3N2))]
+ ABC43500.1 neuraminidase [Influenza A virus (A/Canterbury/100/2004(H3N2))]
+ ABC43522.1 neuraminidase [Influenza A virus (A/Canterbury/207/2004(H3N2))]
+ ABC43533.1 neuraminidase [Influenza A virus (A/Canterbury/208/2004(H3N2))]
+ ABC43544.1 neuraminidase [Influenza A virus (A/Canterbury/210/2004(H3N2))]
+ ABC43555.1 neuraminidase [Influenza A virus (A/Canterbury/313/2004(H3N2))]
+ ABC67590.1 neuraminidase [Influenza A virus (A/Canterbury/108/2004(H3N2))]
+ ABC67601.1 neuraminidase [Influenza A virus (A/Canterbury/109/2004(H3N2))]
+ ABC84436.1 neuraminidase [Influenza A virus (A/Canterbury/309/2004(H3N2))]
+ ABC85999.1 neuraminidase [Influenza A virus (A/Canterbury/312/2004(H3N2))]
+ ABC86010.1 neuraminidase [Influenza A virus (A/Canterbury/310/2004(H3N2))]
+ ABD15529.1 neuraminidase [Influenza A virus (A/New York/73/2004(H3N2))]
+ ABD94737.1 neuraminidase [Influenza A virus (A/Whanganui/127/2004(H3N2))]
+ ABG80285.1 neuraminidase [Influenza A virus (A/Wellington/8/2004(H3N2))]
+ ABG80296.1 neuraminidase [Influenza A virus (A/Wellington/22/2004(H3N2))]
+ ABG80307.1 neuraminidase [Influenza A virus (A/Wellington/31/2004(H3N2))]
+ ABG80329.1 neuraminidase [Influenza A virus (A/Wellington/52/2004(H3N2))]
+ ABG80340.1 neuraminidase [Influenza A virus (A/Waikato/40/2004(H3N2))]
+ ABG88710.1 neuraminidase [Influenza A virus (A/Wellington/35/2004(H3N2))]
+ ABG88721.1 neuraminidase [Influenza A virus (A/Wellington/45/2004(H3N2))]
+ ABI21115.1 neuraminidase [Influenza A virus (A/Wellington/38/2004(H3N2))]
+ ABI21126.1 neuraminidase [Influenza A virus (A/Waikato/22/2004(H3N2))]
+ ABI21148.1 neuraminidase [Influenza A virus (A/Waikato/35/2004(H3N2))]
+ ABI21170.1 neuraminidase [Influenza A virus (A/Waikato/45/2004(H3N2))]
+ ABI21181.1 neuraminidase [Influenza A virus (A/Wellington/62/2004(H3N2))]
+ ABI26649.1 neuraminidase [Influenza A virus (A/Waikato/26/2004(H3N2))]
+ ABI30425.1 neuraminidase [Influenza A virus (A/Wellington/4/2004(H3N2))]
+ ABI30436.1 neuraminidase [Influenza A virus (A/Waikato/3/2004(H3N2))]
+ ABI30447.1 neuraminidase [Influenza A virus (A/Wellington/27/2004(H3N2))]
+ ABI30458.1 neuraminidase [Influenza A virus (A/Wellington/59/2004(H3N2))]
+ ABI30469.1 neuraminidase [Influenza A virus (A/Waikato/51/2004(H3N2))]
+ ABI30480.1 neuraminidase [Influenza A virus (A/Waikato/56/2004(H3N2))]
+ ABI30502.1 neuraminidase [Influenza A virus (A/Waikato/68/2004(H3N2))]
+ ABI30524.1 neuraminidase [Influenza A virus (A/Waikato/71/2004(H3N2))]
+ ABI30535.1 neuraminidase [Influenza A virus (A/Wellington/64/2004(H3N2))]
+ ABI30557.1 neuraminidase [Influenza A virus (A/Waikato/73/2004(H3N2))]
+ ABI92360.1 neuraminidase [Influenza A virus (A/Waikato/16/2004(H3N2))]
+ ABI92371.1 neuraminidase [Influenza A virus (A/Wellington/34/2004(H3N2))]
+ ABI92404.1 neuraminidase [Influenza A virus (A/Waikato/3/2005(H3N2))]
+ ABI92789.1 neuraminidase [Influenza A virus (A/Western Australia/51/2004(H3N2))]
+ ABI92800.1 neuraminidase [Influenza A virus (A/Western Australia/52/2004(H3N2))]
+ ABI92811.1 neuraminidase [Influenza A virus (A/Western Australia/53/2004(H3N2))]
+ ABI92822.1 neuraminidase [Influenza A virus (A/Western Australia/54/2004(H3N2))]
+ ABI92844.1 neuraminidase [Influenza A virus (A/Western Australia/56/2004(H3N2))]
+ ABI92855.1 neuraminidase [Influenza A virus (A/Western Australia/57/2004(H3N2))]
+ ABI92877.1 neuraminidase [Influenza A virus (A/Western Australia/59/2004(H3N2))]
+ ABI92888.1 neuraminidase [Influenza A virus (A/Western Australia/60/2004(H3N2))]
+ ABI92899.1 neuraminidase [Influenza A virus (A/Western Australia/61/2004(H3N2))]
+ ABI92910.1 neuraminidase [Influenza A virus (A/Western Australia/62/2004(H3N2))]
+ ABI92921.1 neuraminidase [Influenza A virus (A/Western Australia/63/2004(H3N2))]
+ ABI92932.1 neuraminidase [Influenza A virus (A/Western Australia/64/2004(H3N2))]
+ ABJ09165.1 neuraminidase [Influenza A virus (A/Wellington/61/2004(H3N2))]
+ ABJ09176.1 neuraminidase [Influenza A virus (A/Waikato/70/2004(H3N2))]
+ ABK40020.1 neuraminidase [Influenza A virus (A/South Australia/22/2005(H3N2))]
+ ABK80270.1 neuraminidase [Influenza A virus (A/Queensland/49/2004(H3N2))]
+ ABL67388.1 neuraminidase [Influenza A virus (A/Queensland/43/2004(H3N2))]
+ ABL67399.1 neuraminidase [Influenza A virus (A/Queensland/46/2004(H3N2))]
+ ABO32806.1 neuraminidase [Influenza A virus (A/Queensland/50/2004(H3N2))]
+ ABO38079.1 neuraminidase [Influenza A virus (A/South Australia/61/2005(H3N2))]
+ ABO38255.1 neuraminidase [Influenza A virus (A/Wellington/55/2004(H3N2))]
+ ABO72350.1 neuraminidase [Influenza A virus (A/Tennessee/6/2004(H3N2))]
+ ABO72351.1 neuraminidase [Influenza A virus (A/Texas/6/2004(H3N2))]
+ ABO72352.1 neuraminidase [Influenza A virus (A/Washington/1/2004(H3N2))]
+ ABO72353.1 neuraminidase [Influenza A virus (A/North Dakota/1/2004(H3N2))]
+ ABO72356.1 neuraminidase [Influenza A virus (A/Wisconsin/19/2004(H3N2))]
+ ABO72363.1 neuraminidase [Influenza A virus (A/Hong Kong/2982/2004(H3N2))]
+ ABP52003.1 neuraminidase [Influenza A virus (A/California/7/2004(egg-passaged)(H3N2))]
+ BAF57579.1 neuraminidase [Influenza A virus (A/Hanoi/TB285/2005(H3N2))]
+ ABU50408.1 neuraminidase [Influenza A virus (A/Missouri/1e/2005(N2))]
+ ABU50491.1 neuraminidase [Influenza A virus (A/New York/40e/2004(N2))]
+ ABU92777.1 neuraminidase [Influenza A virus (A/Denmark/77/2006(H3N2))]
+ ABU92790.1 neuraminidase [Influenza A virus (A/Denmark/203/2005(H3N2))]
+ ABV24039.1 neuraminidase [Influenza A virus (A/New York/55/2004(N2))]
+ ABW80980.1 neuraminidase [Influenza A virus (A/California/07/2004(H3N2))]
+ ACF36688.1 neuraminidase [Influenza A virus (A/Hong Kong/CUHK52677/2004(H3N2))]
+ ACF36689.1 neuraminidase [Influenza A virus (A/Hong Kong/CUHK52863/2004(H3N2))]
+ ACF36691.1 neuraminidase [Influenza A virus (A/Hong Kong/CUHK52941/2004(H3N2))]
+ ACF36699.1 neuraminidase [Influenza A virus (A/Hong Kong/CUHK53726/2004(H3N2))]
+ ACF36701.1 neuraminidase [Influenza A virus (A/Hong Kong/CUHK53766/2004(H3N2))]
+ ACF36728.1 neuraminidase [Influenza A virus (A/Hong Kong/CUHK7047/2005(H3N2))]
+ ACF41903.1 neuraminidase [Influenza A virus (A/New York/55/2004(H3N2))]
+ ACI26299.1 neuraminidase [Influenza A virus (A/Nymc X-157A(Puerto Rico/8/1934-New 
+York/55/2004)(H3N2))]
+ ACI26431.1 neuraminidase [Influenza A virus (A/Nymc X-157B(Puerto Rico/8/1934-New 
+York/55/2004)(H3N2))]
+ ACN50231.1 neuraminidase [Influenza A virus (A/Tabriz/12/2005(H3N2))]
+ ACN50232.1 neuraminidase, partial [Influenza A virus (A/Babol/36/2005(H3N2))]
+ ACO36510.1 neuraminidase [Influenza A virus (A/Hong Kong/HKU20/2004(H3N2))]
+ ACO36543.1 neuraminidase [Influenza A virus (A/Hong Kong/HKU31/2004(H3N2))]
+ ACO36554.1 neuraminidase [Influenza A virus (A/Hong Kong/HKU34/2004(H3N2))]
+ ACO36565.1 neuraminidase [Influenza A virus (A/Hong Kong/HKU36/2004(H3N2))]
+ ACO36587.1 neuraminidase [Influenza A virus (A/Hong Kong/HKU42/2005(H3N2))]
+ ACO95174.1 neuraminidase [Influenza A virus (A/Hong Kong/HKU23/2004(H3N2))]
+ ACO95185.1 neuraminidase [Influenza A virus (A/Hong Kong/HKU25/2004(H3N2))]
+ ACO95207.1 neuraminidase [Influenza A virus (A/Hong Kong/HKU33/2004(H3N2))]
+ ACO95218.1 neuraminidase [Influenza A virus (A/Hong Kong/HKU40/2004(H3N2))]
+ ACR15549.1 neuraminidase [Influenza A virus (A/Hong Kong/HKU38/2004(H3N2))]
+ ACT21515.1 neuraminidase [Influenza A virus (A/Canterbury/200/2004(H3N2))]
+ ADZ96102.1 neuraminidase [Influenza A virus (A/reassortant/IgYRP2(California/07/2004 
+x Puerto Rico/8/1934)(H3N2))]
+ ADZ96124.1 neuraminidase [Influenza A virus (A/reassortant/CDC2005712034(California/07/2004 
+x Puerto Rico/8/1934)(H3N2))]
+ AEG65002.1 neuraminidase [Influenza A virus (A/South Carolina/NHRC0001/2005(H3N2))]
+ AEL11690.1 neuraminidase [Influenza A virus (A/Nymc X-157(Puerto Rico/8/1934-New 
+York/55/2004)(H3N2))]
+ AEM60050.1 neuraminidase [Influenza A virus (A/Canterbury/200/2004(H3N2))]
+ AER24326.1 neuraminidase, partial [Influenza A virus (A/Hong Kong/HKU123/2004(H3N2))]
+ AER24348.1 neuraminidase, partial [Influenza A virus (A/Hong Kong/HKU85/2004(H3N2))]
+ AER24381.1 neuraminidase, partial [Influenza A virus (A/Hong Kong/HKU88/2004(H3N2))]
+ AER24403.1 neuraminidase, partial [Influenza A virus (A/Hong Kong/HKU90/2004(H3N2))]
+ AER24414.1 neuraminidase, partial [Influenza A virus (A/Hong Kong/HKU91/2004(H3N2))]
+ AER24425.1 neuraminidase, partial [Influenza A virus (A/Hong Kong/HKU92/2004(H3N2))]
+ AER24458.1 neuraminidase, partial [Influenza A virus (A/Hong Kong/HKU96/2005(H3N2))]
+ AFH00640.1 neuraminidase [Influenza A virus (A/California/7/2004(H3N2))]
+ AFH00662.1 neuraminidase [Influenza A virus (A/Netherlands/42/2006(H3N2))]
+ AFM71871.1 neuraminidase [Influenza A virus (A/New York/55/2004(H3N2))]
+ AFM71882.1 neuraminidase [Influenza A virus (A/reassortant/NYMC X-157 CL-3(New 
+York/55/2004 x Puerto Rico/8/1934)(H3N2))]
+ AFN11853.1 neuraminidase [Influenza A virus (A/New York/55/2004(H3N2))]
+Length=469
+
+ Score = 964 bits (2492),  Expect = 0.0, Method: Compositional matrix adjust.
+ Identities = 467/469 (99%), Positives = 468/469 (99%), Gaps = 0/469 (0%)
+
+Query  1    MNPNQKIITIGSVSLTISTICFFMQIAILITTVTLHFKQYEFNSPPNNQVMLCEPTIIER  60
+            MNPNQKIITIGSVSLTISTICFFMQIAILITTVTLHFKQYEFNSPPNNQVMLCEPTIIER
+Sbjct  1    MNPNQKIITIGSVSLTISTICFFMQIAILITTVTLHFKQYEFNSPPNNQVMLCEPTIIER  60
+
+Query  61   NITEIVYLTNTTIEKEICPKLAEYRNWSKPQCNITGFAPFSKDNSIRLSAGGDIWVTREP  120
+            NITEIVYLTNTTIEKEICPKLAEYRNWSKPQC+ITGFAPFSKDNSIRLSAGGDIWVTREP
+Sbjct  61   NITEIVYLTNTTIEKEICPKLAEYRNWSKPQCDITGFAPFSKDNSIRLSAGGDIWVTREP  120
+
+Query  121  YVSCDPDKCYQFALGQGTTLNNVHSNDTVHDRTPYRTLLMNELGVPFHLGTKQVCIAWSS  180
+            YVSCDPDKCYQFALGQGTTLNNVHSNDTVHDRTPYRTLLMNELGVPFHLGTKQVCIAWSS
+Sbjct  121  YVSCDPDKCYQFALGQGTTLNNVHSNDTVHDRTPYRTLLMNELGVPFHLGTKQVCIAWSS  180
+
+Query  181  SSCHDGKAWLHVCVTGDDKNATASFIYNGRLVDSIVSWSKEILRTQESECVCINGTCTVV  240
+            SSCHDGKAWLHVCVTGDDKNATASFIYNGRLVDSIVSWSKEILRTQESECVCINGTCTVV
+Sbjct  181  SSCHDGKAWLHVCVTGDDKNATASFIYNGRLVDSIVSWSKEILRTQESECVCINGTCTVV  240
+
+Query  241  MTDGSASGKADTKILFIEEGKIVHTSTLSGSAQHVEECSCYPRYLGVRCVCRDNWKGSNR  300
+            MTDGSASGKADTKILFIEEGKIVHTSTLSGSAQHVEECSCYPRY GVRCVCRDNWKGSNR
+Sbjct  241  MTDGSASGKADTKILFIEEGKIVHTSTLSGSAQHVEECSCYPRYPGVRCVCRDNWKGSNR  300
+
+Query  301  PIVDINIKDYSIVSSYVCSGLVGDTPRKNDSSSSSHCLDPNNEEGGHGVKGWAFDDGNDV  360
+            PIVDINIKDYSIVSSYVCSGLVGDTPRKNDSSSSSHCLDPNNEEGGHGVKGWAFDDGNDV
+Sbjct  301  PIVDINIKDYSIVSSYVCSGLVGDTPRKNDSSSSSHCLDPNNEEGGHGVKGWAFDDGNDV  360
+
+Query  361  WMGRTISEKLRSGYETFKVIEGWSNPNSKLQINRQVIVDRGNRSGYSGIFSVEGKSCINR  420
+            WMGRTISEKLRSGYETFKVIEGWSNPNSKLQINRQVIVDRGNRSGYSGIFSVEGKSCINR
+Sbjct  361  WMGRTISEKLRSGYETFKVIEGWSNPNSKLQINRQVIVDRGNRSGYSGIFSVEGKSCINR  420
+
+Query  421  CFYVELIRGRKEETEVLWTSNSIVVFCGTSGTYGTGSWPDGADINLMPI  469
+            CFYVELIRGRKEETEVLWTSNSIVVFCGTSGTYGTGSWPDGADINLMPI
+Sbjct  421  CFYVELIRGRKEETEVLWTSNSIVVFCGTSGTYGTGSWPDGADINLMPI  469
+
+
+
+
+
+

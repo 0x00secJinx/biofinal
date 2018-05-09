@@ -1,0 +1,145 @@
+BLASTP 2.8.0+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro
+A. Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and
+David J. Lipman (1997), "Gapped BLAST and PSI-BLAST: a new
+generation of protein database search programs", Nucleic
+Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen
+F. Altschul, John C. Wootton, E. Michael Gertz, Richa
+Agarwala, Aleksandr Morgulis, Alejandro A. Schaffer, and
+Yi-Kuo Yu (2005) "Protein database searches using
+compositionally adjusted substitution matrices", FEBS J.
+272:5101-5109.
+
+
+RID: F1SFHVE3114
+
+
+Query= AFH00640.1 neuraminidase [Influenza A virus
+(A/California/7/2004(H3N2))]
+
+Length=469
+
+
+                                                                   Score     E
+Sequences producing significant alignments:                       (Bits)  Value
+
+AFG72826.1  neuraminidase [Influenza A virus (A/Fujian/411/200...  963     0.0  
+
+ALIGNMENTS
+>AAS93885.1 neuraminidase [Influenza A virus (A/Cheju/274/2002(H3N2))]
+ AAS93886.1 neuraminidase [Influenza A virus (A/Cheju/311/2002(H3N2))]
+ AAS93887.1 neuraminidase [Influenza A virus (A/Cheonnam/323/2002(H3N2))]
+ AAS93888.1 neuraminidase [Influenza A virus (A/Cheonnam/338/2002(H3N2))]
+ AAS93890.1 neuraminidase [Influenza A virus (A/Cheonnam/432/2002(H3N2))]
+ AAS93891.1 neuraminidase [Influenza A virus (A/Chungnam/447/2002(H3N2))]
+ AAS93894.1 neuraminidase [Influenza A virus (A/Incheon/260/2002(H3N2))]
+ AAS93898.1 neuraminidase [Influenza A virus (A/Kyongnam/347/2002(H3N2))]
+ AAT07974.1 neuraminidase [Influenza A virus (A/Denmark/58/2003(H3N2))]
+ AAT07975.1 neuraminidase [Influenza A virus (A/Denmark/07/2003(H3N2))]
+ AAT07976.1 neuraminidase [Influenza A virus (A/Denmark/32/2003(H3N2))]
+ AAT07977.1 neuraminidase [Influenza A virus (A/Denmark/24/2003(H3N2))]
+ AAT07981.1 neuraminidase [Influenza A virus (A/Denmark/20/2003(H3N2))]
+ AAT07982.1 neuraminidase [Influenza A virus (A/Denmark/41/2003(H3N2))]
+ AAT07986.1 neuraminidase [Influenza A virus (A/Denmark/52/2003(H3N2))]
+ AAT07988.1 neuraminidase [Influenza A virus (A/Denmark/37/2003(H3N2))]
+ AAT08001.1 neuraminidase [Influenza A virus (A/Wyoming/03/2003(H3N2))]
+ AAZ32954.1 neuraminidase [Influenza A virus (A/Moscow/328/2003(H3N2))]
+ ABD59872.1 NA [Influenza A virus (A/TW/872/02(H3N2))]
+ ABO72361.1 neuraminidase [Influenza A virus (A/Wyoming/3/2003-X-147(H3N2))]
+ BAF57511.1 neuraminidase [Influenza A virus (A/Hanoi/197/2002(H3N2))]
+ ABU50448.1 neuraminidase [Influenza A virus (A/New Jersey/4/2002(N2))]
+ ABU50454.1 neuraminidase [Influenza A virus (A/Wisconsin/30/2003(N2))]
+ ABU50458.1 neuraminidase [Influenza A virus (A/South dakota/9/2003(N2))]
+ ABU92805.1 neuraminidase [Influenza A virus (A/Denmark/123/2003(H3N2))]
+ ABU92806.1 neuraminidase [Influenza A virus (A/Denmark/124/2003(H3N2))]
+ ABU92874.1 neuraminidase [Influenza A virus (A/Denmark/99/2003(H3N2))]
+ ABU92889.1 neuraminidase [Influenza A virus (A/Denmark/122/2003(H3N2))]
+ ABX10527.1 neuraminidase [Influenza A virus (A/Wyoming/03/2003(H3N2))]
+ ACF22151.1 neuraminidase [Influenza A virus (A/Yucatan/844/2003(H3N2))]
+ ACF36504.1 neuraminidase [Influenza A virus (A/Hong Kong/CUHK13278/2002(H3N2))]
+ ACF36505.1 neuraminidase [Influenza A virus (A/Hong Kong/CUHK13299/2003(H3N2))]
+ ACF36506.1 neuraminidase [Influenza A virus (A/Hong Kong/CUHK13339/2003(H3N2))]
+ ACF36507.1 neuraminidase [Influenza A virus (A/Hong Kong/CUHK13434/2003(H3N2))]
+ ACF36508.1 neuraminidase [Influenza A virus (A/Hong Kong/CUHK13483/2003(H3N2))]
+ ACF36510.1 neuraminidase [Influenza A virus (A/Hong Kong/CUHK13527/2003(H3N2))]
+ ACF36559.1 neuraminidase [Influenza A virus (A/Hong Kong/CUHK21713/2002(H3N2))]
+ ACF36582.1 neuraminidase [Influenza A virus (A/Hong Kong/CUHK23180/2002(H3N2))]
+ ACF36583.1 neuraminidase [Influenza A virus (A/Hong Kong/CUHK24044/2002(H3N2))]
+ ACF36584.1 neuraminidase [Influenza A virus (A/Hong Kong/CUHK24054/2002(H3N2))]
+ ACF36585.1 neuraminidase [Influenza A virus (A/Hong Kong/CUHK24114/2002(H3N2))]
+ ACF36592.1 neuraminidase [Influenza A virus (A/Hong Kong/CUHK24749/2001(H3N2))]
+ ACF36620.1 neuraminidase [Influenza A virus (A/Hong Kong/CUHK33047/2002(H3N2))]
+ ACF36621.1 neuraminidase [Influenza A virus (A/Hong Kong/CUHK33079/2002(H3N2))]
+ ACF36622.1 neuraminidase [Influenza A virus (A/Hong Kong/CUHK33106/2002(H3N2))]
+ ACF36664.1 neuraminidase [Influenza A virus (A/Hong Kong/CUHK50080/2001(H3N2))]
+ ACF36665.1 neuraminidase [Influenza A virus (A/Hong Kong/CUHK50200/2002(H3N2))]
+ ACF36666.1 neuraminidase [Influenza A virus (A/Hong Kong/CUHK50256/2002(H3N2))]
+ ACF36686.1 neuraminidase [Influenza A virus (A/Hong Kong/CUHK5250/2002(H3N2))]
+ ACF36687.1 neuraminidase [Influenza A virus (A/Hong Kong/CUHK5251/2002(H3N2))]
+ ACF36697.1 neuraminidase [Influenza A virus (A/Hong Kong/CUHK5316/2003(H3N2))]
+ ACF36707.1 neuraminidase [Influenza A virus (A/Hong Kong/CUHK5723/2003(H3N2))]
+ ACF36709.1 neuraminidase [Influenza A virus (A/Hong Kong/CUHK6205/2003(H3N2))]
+ ACF36712.1 neuraminidase [Influenza A virus (A/Hong Kong/CUHK6262/2003(H3N2))]
+ ACF36714.1 neuraminidase [Influenza A virus (A/Hong Kong/CUHK6383/2003(H3N2))]
+ ACF36718.1 neuraminidase [Influenza A virus (A/Hong Kong/CUHK6427/2003(H3N2))]
+ ACF41892.1 neuraminidase [Influenza A virus (A/Nymc X-149C6(Puerto Rico/8/1934-Wyoming/03/2003)(H3N2))]
+ ACF54568.1 neuraminidase [Influenza A virus (A/Wyoming/03/2003(H3N2))]
+ AEO09005.1 neuraminidase [Influenza A virus (A/Thailand/Siriraj-06/2002(H3N2))]
+ AEX35255.1 neuraminidase [Influenza A virus (A/Hanoi/BM767/2003(H3N2))]
+ AEX35332.1 neuraminidase [Influenza A virus (A/HaNoi/662/2004(H3N2))]
+ AEX35343.1 neuraminidase [Influenza A virus (A/HaNoi/BM769/2004(H3N2))]
+ AFD64225.1 neuraminidase [Influenza A virus (A/Fujian/411/2002(H3N2))]
+ AFG72826.1 neuraminidase [Influenza A virus (A/Fujian/411/2002(H3N2))]
+ AFH00618.1 neuraminidase [Influenza A virus (A/Netherlands/222/2003(H3N2))]
+ AFH01410.1 neuraminidase [Influenza A virus (A/Netherlands/109/2003(H3N2))]
+ AFM72304.1 neuraminidase [Influenza A virus (A/reassortant/NYMC X-147(Wyoming/03/2003 
+x Puerto Rico/8/1934)(H3N2))]
+ AFN11841.1 neuraminidase [Influenza A virus (A/Finland/170/2003(H3N2))]
+ AFN11857.1 neuraminidase [Influenza A virus (A/Wyoming/03/2003(H3N2))]
+ AFY24219.1 neuraminidase [Influenza A virus (A/Mexico/InDRE835/2003(H3N2))]
+ AIC65047.1 neuraminidase [Influenza A virus (A/Mexico/DIF835/2003(H3N2))]
+Length=469
+
+ Score = 963 bits (2490),  Expect = 0.0, Method: Compositional matrix adjust.
+ Identities = 465/469 (99%), Positives = 469/469 (100%), Gaps = 0/469 (0%)
+
+Query  1    MNPNQKIITIGSVSLTISTICFFMQIAILITTVTLHFKQYEFNSPPNNQVMLCEPTIIER  60
+            MNPNQKIITIGSVSLTISTICFFMQIAILITTVTLHFKQYEFNSPPNNQVMLCEPTIIER
+Sbjct  1    MNPNQKIITIGSVSLTISTICFFMQIAILITTVTLHFKQYEFNSPPNNQVMLCEPTIIER  60
+
+Query  61   NITEIVYLTNTTIEKEICPKLAEYRNWSKPQCDITGFAPFSKDNSIRLSAGGDIWVTREP  120
+            NITEIVYLTNTTIEKEICPKLAEYRNWSKPQC+ITGFAPFSKDNSIRLSAGGDIWVTREP
+Sbjct  61   NITEIVYLTNTTIEKEICPKLAEYRNWSKPQCNITGFAPFSKDNSIRLSAGGDIWVTREP  120
+
+Query  121  YVSCDPDKCYQFALGQGTTLNNVHSNDTVHDRTPYRTLLMNELGVPFHLGTKQVCIAWSS  180
+            YVSCDPDKCYQFALGQGTTLNNVHSNDTVHDRTPYRTLLMNELGVPFHLGTKQVCIAWSS
+Sbjct  121  YVSCDPDKCYQFALGQGTTLNNVHSNDTVHDRTPYRTLLMNELGVPFHLGTKQVCIAWSS  180
+
+Query  181  SSCHDGKAWLHVCVTGDDKNATASFIYNGRLVDSIVSWSKEILRTQESECVCINGTCTVV  240
+            SSCHDGKAWLHVCVTGDD+NATASFIYNGRLVDSIVSWSK+ILRTQESECVCINGTCTVV
+Sbjct  181  SSCHDGKAWLHVCVTGDDENATASFIYNGRLVDSIVSWSKKILRTQESECVCINGTCTVV  240
+
+Query  241  MTDGSASGKADTKILFIEEGKIVHTSTLSGSAQHVEECSCYPRYPGVRCVCRDNWKGSNR  300
+            MTDGSASGKADTKILFIEEGKIVHTSTLSGSAQHVEECSCYPRYPGVRCVCRDNWKGSNR
+Sbjct  241  MTDGSASGKADTKILFIEEGKIVHTSTLSGSAQHVEECSCYPRYPGVRCVCRDNWKGSNR  300
+
+Query  301  PIVDINIKDYSIVSSYVCSGLVGDTPRKNDSSSSSHCLDPNNEEGGHGVKGWAFDDGNDV  360
+            PIVDINIKDYSIVSSYVCSGLVGDTPRKNDSSSSSHCLDPNNEEGGHGVKGWAFDDGNDV
+Sbjct  301  PIVDINIKDYSIVSSYVCSGLVGDTPRKNDSSSSSHCLDPNNEEGGHGVKGWAFDDGNDV  360
+
+Query  361  WMGRTISEKLRSGYETFKVIEGWSNPNSKLQINRQVIVDRGNRSGYSGIFSVEGKSCINR  420
+            WMGRTISEKLRSGYETFKVIEGWSNPNSKLQINRQVIVDRGNRSGYSGIFSVEGKSCINR
+Sbjct  361  WMGRTISEKLRSGYETFKVIEGWSNPNSKLQINRQVIVDRGNRSGYSGIFSVEGKSCINR  420
+
+Query  421  CFYVELIRGRKEETEVLWTSNSIVVFCGTSGTYGTGSWPDGADINLMPI  469
+            CFYVELIRGRK+ETEVLWTSNSIVVFCGTSGTYGTGSWPDGADINLMPI
+Sbjct  421  CFYVELIRGRKQETEVLWTSNSIVVFCGTSGTYGTGSWPDGADINLMPI  469
+
+
+
+
+
+

@@ -1,0 +1,76 @@
+H Proteins:
+
+	Strains (Type/Name/Access Number):
+		A-H1N1 	A/New Caledonia/20/1999 AGQ47728
+		A-H3N2 	A/Moscow/10/1999 		AFM72208
+		A-H3N2 	A/Panama/2007/1999 		AIU46058
+		A-H3N2 	A/Fujian/411/2002 		AIU46065
+		A-H3N2 	A/California/7/2004 	AIU46075
+		A-H3N2 	A/Wisconsin/67/2005 	AIU46082
+		B		B/Victoria/2/1987 		AAA43697
+		B		B/Yamagata/16/1988 		ABL77255
+		B		B/Malaysia/2506/2004 	ACR15732
+		B		B/Florida/4/2006 		ACA33493
+
+	Wild v Vaccine; H Proteins:
+		Fujian v Moscow 		96%
+		Wisconsin v California 	99%
+		Yamataga v Florida 		96%
+		Victoria v Florida 		95%
+		Panama v Moscow 		98%
+		Malaysia v Yamataga 	94%
+		Malaysia v Florida 		93%
+
+	Most Common Amino Acids Mutated/Different
+		B H Proteins:
+			AA #s: 63, 71, 86, 88, 103, 131, 144, 151, 152, 163, 164,
+				   178, 179, 181, 212, 213, 214, 224, 245, 270, 277, 282
+		A (H3N2) H Proteins:
+			AA #s: 66, 91, 99, 147, 154, 161, 171, 172, 175, 202, 205,
+				   212, 218, 238, 239, 241, 242, 243, 377, 402, 546
+		A (H1N1) H Protein:
+			Not enough H1N1 Strains with the H protein sequence available to determine
+
+
+
+N Proteins:
+
+	Strains (Type/Name/Access Number):
+		A-H1N1 	A/New Caledonia/20/1999 AGQ47731
+		A-H3N2 	A/Panama/2007/1999 		AFG72804
+		A-H3N2 	A/Moscow/10/1999 		AFM72211
+		A-H3N2 	A/Fujian/411/2002 		AFG72826
+		A-H3N2 	A/Wyoming/3/2003 		AFN11857
+		A-H3N2 	A/California/7/2004 	AFH00640
+		A-H3N2 	A/Wisconsin/67/2005 	AHG97058
+		B		B/Victoria/2/1987 		BAB32609
+		B		B/Yamagata/16/1988 		CAA47401
+		B		B/Beijing/184/1993 		CAH04544
+		B		B/Sichuan/379/1999 		CAH04538
+		B		B/Shanghai/361/2002 	ABP52019
+		B		B/Florida/07/2004 		AFH57869
+		B		B/Malaysia/2506/2004 	ACR15736
+		B		B/Ohio/1/2005 			ABP52021
+
+	Wild v Vaccine; N Proteins:
+		Beijing v Sichuan 		 97%
+		Panama v Moscow 		 98%
+		Sichuan v Yamataga 		 96%
+		Sichuan v Victoria 		 95%
+		Fujian v Moscow 		 98%
+		Fujian v California 	 99%
+		Shanghai v Yamataga 	 95%
+		Victoria v Shanghai 	 94%
+		Wisconsin v California 	 99%
+		Florida v Shanghai 		 97%
+		Ohio v Shanghai 		 98%
+		Ohio v Malaysia 		 98%
+
+	Most Common Amino Acids Mutated/Different:
+		B N Proteins:
+			AA #s: 42, 186, 235, 248, 250, 272, 345, 373, 378, 389
+				   386, 404, 436
+		A (H3N2) N Protein:
+			No significant amino acids that change in the strains
+		A (H1N1) N Protein:
+			Not enough H1N1 Strains with the N protein sequence available to determine

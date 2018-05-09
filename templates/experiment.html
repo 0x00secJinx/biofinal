@@ -22,183 +22,214 @@ Experiment - AP Bio e-portfolio
 {% block content %}
 <style type="text/css">
 table, th, td {
-  border: 1px solid white;
+	border: 1px solid white;
 }
 td, th {
-  padding: 10px;
+	padding: 10px;
 }
 </style>
 <script src="{{url_for('.static', filename='js/modernizr.js')}}"></script>
-   <header id="home">
+	 <header id="home">
 
-      <nav id="nav-wrap">
+			<nav id="nav-wrap">
 
-         <a class="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
-	      <a class="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
+				 <a class="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
+					<a class="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
 
-         <ul id="nav" class="nav">
-            <li><a class="smoothscroll" href="/">Home</a></li>
-            <li><a class="smoothscroll" href="/#introduction">Introduction</a></li>
-	         <li class="current"><a class="smoothscroll" href="#">Experiment</a></li>
-            <li><a class="smoothscroll" href="/artifacts">Artifacts</a></li>
-            <li><a class="smoothscroll" href="/reflections">Reflections</a></li>
-         </ul>
+				 <ul id="nav" class="nav">
+						<li><a class="smoothscroll" href="/">Home</a></li>
+						<li><a class="smoothscroll" href="/#introduction">Introduction</a></li>
+						 <li class="current"><a class="smoothscroll" href="#">Experiment</a></li>
+						<li><a class="smoothscroll" href="/artifacts">Artifacts</a></li>
+						<li><a class="smoothscroll" href="/reflections">Reflections</a></li>
+				 </ul>
 
-      </nav>
+			</nav>
 
-      <div class="row banner">
-      	<div class="banner-text">
-      		<h1 class="responsive-headline">Experiment</h1>
-      	</div>
-      </div>
-   </header>
-   <section id="introduction">
-      <div class="row">
-         <div class="nine columns main-col">
-          <h2>BLASTing the Flu Virus</h2>
-          <p>Experiment based on the procedure at <a class="exp" href="https://www.sciencebuddies.org/science-fair-projects/project-ideas/Genom_p003/genetics-genomics/blasting-flu-viruses">Science Buddies</a></p>
-    	    <hr />
-	        <h2>Background:</h2>
-	        <p>Influenza is a virus that affects the upper respiratory tract. Common in cold and dry weather, the virus has a 'season'. There are 3 types of the virus: type A, type B, and type C.
-		      Type A can spread quickly and in many mammals while type B and C only affect humans. Type C does no real damage as it causes a mild infection, while type B can be devastating.
-		      Type A and B both have sub-categories based on the two main proteins of the virus: hemagglutinin and neuraminidase (H and N). The different evolution on the viruses rely on
-		      changes made to these proteins. Hemagglutinin are used in attaching the virus onto a cell, while the neuraminidase is used to spread the infection. Flu vaccines contain three
-		      different strands of these H and N proteins usually and each one helps prevent the flu from these strands. Scientists use a technique called sequence alignment to try to get
-		      the best match possible for the yearly vaccine. BLAST (Basic Local Alignment Search Tool) is an online based bioinformatics tool for aligning sequences. For this experiment, I will
-          be using 6 different flu seasons from 2000-2007
-	        </p>
+			<div class="row banner">
+				<div class="banner-text">
+						<h1 class="responsive-headline">Experiment</h1>
+				</div>
+			</div>
+	 </header>
+	 <section id="introduction">
+			<div class="row">
+				 <div class="nine columns main-col">
+					<h2>BLASTing the Flu Virus</h2>
+					<p>Experiment based on the procedure at <a class="exp" href="https://www.sciencebuddies.org/science-fair-projects/project-ideas/Genom_p003/genetics-genomics/blasting-flu-viruses">Science Buddies</a></p>
+						<hr />
+						<h2>Background:</h2>
+						<p>Influenza is a virus that affects the upper respiratory tract. Common in cold and dry weather, the virus has a 'season'. There are 3 types of the virus: type A, type B, and type C.
+							Type A can spread quickly and in many mammals while type B and C only affect humans. Type C does no real damage as it causes a mild infection, while type B can be devastating.
+							Type A and B both have sub-categories based on the two main proteins of the virus: hemagglutinin and neuraminidase (H and N). The different evolution on the viruses rely on
+							changes made to these proteins. Hemagglutinin are used in attaching the virus onto a cell, while the neuraminidase is used to spread the infection. Once the virus attaches to the
+							host cell, the genetic material of the virus enters the cell and takes over the organelles of the cell to make more flu viruses. Flu vaccines contain three
+							different strands of these H and N proteins usually and each one helps prevent the flu from these strands. Scientists use a technique called sequence alignment to try to get
+							the best match possible for the yearly vaccine. BLAST (Basic Local Alignment Search Tool) is an online based bioinformatics tool for aligning sequences. For this experiment, I will
+							be using different flu seasons from 2000-2007
+						</p>
 
-          <h2>Hypothesis:</h2>
-          <p>If the protein alignment of the flu vaccine were similar to the protein alignment of a non-matching flu virus, then the effectiveness of the flu vaccine increases</p>
+					<h2>Hypothesis:</h2>
+					<p>If the protein alignment of the flu vaccine were similar to the protein alignment of a non-matching flu virus, then the effectiveness of the flu vaccine increases</p>
 
-          <h2>Materials:</h2>
-          <p>   A Computer with internet</p>
+					<h2>Materials:</h2>
+					<p>A Computer with internet</p>
 
-          <h2>Subtypes in the Wild and Vaccine for each Season:</h2>
-          <table style="border: 1px solid white">
-          <tr>
-             <th>Influenza Season</th>
-             <th>Subtypes Found</th>
-             <th>Subtypes in Vaccines</th>
-          </tr>
-          <tr>
-             <th rowspan="4">2000-2001</td>
-             <td>A/New Caledonia/20/99</td>
-             <td>A/New Caledonia/20/99</td>
-          </tr>
-          <tr>
-            <td><strong>A/Bayern/07/95</strong></td>
-            <td></td>
-          </tr>
-          <tr>
-            <td><strong>A/Panama/2007/99</strong></td>
-            <td>A/Moscow/10/99</td>
-          </tr>
-          <tr>
-            <td><strong>B/Sichuan/379/99</strong></td>
-            <td></td>
-          </tr>
-          <tr>
-            <th rowspan="4">2001-2002</td>
-            <td>A/New Caledonia/20/99</td>
-            <td>A/New Caledonia/20/99</td>
-          </tr>
-          <tr>
-            <td><strong>A/Panama/2007/99</strong></td>
-            <td>A/Moscow/10/99</td>
-          </tr>
-          <tr>
-            <td><strong>B/Yamagata/16/88</strong></td>
-            <td>B/Sichuan/379/99</td>
-          </tr>
-          <tr>
-            <td><strong>B/Victoria/2/87</strong></td>
-            <td></td>
-          </tr>
-            <tr>
-            <th rowspan="4">2002-2003</td>
-            <td>A/New Caledonia/20/99</td>
-            <td>A/New Caledonia/20/99</td>
-          </tr>
-          <tr>
-            <td><strong>A/Panama/2007/99</strong></td>
-            <td>A/Moscow/10/99</td>
-          </tr>
-          <tr>
-            <td>B/Hong Kong/330/01</td>
-            <td>B/Hong Kong/33/01</td>
-          </tr>
-          <tr>
-            <td><strong>B/Sichuan/379/99</strong></td>
-            <td></td>
-          </tr>
-          <tr>
-             <th rowspan="5">2003-2004</td>
-             <td>A/New Caledonia/20/99</td>
-             <td>A/New Caledonia/20/99</td>
-          </tr>
-          <tr>
-             <td><strong>A/Fujian/411/2002</strong></td>
-             <td>A/Moscow/10/99</td>
-          </tr>
-          <tr>
-             <td><strong>A/Panama/2007/99</strong></td>
-             <td></td>
-          </tr>
-          <tr>
-             <td>B/Hong Kong/330/01</td>
-             <td>B/Hong Kong/330/01</td>
-          </tr>
-          <tr>
-             <td><strong>B/Sichuan/379/99</strong></td>
-             <td></td>
-          </tr>
-            <tr>
-              <th rowspan="6">2005-2006</td>
-              <td>A/New Caledonia/20/99</td>
-              <td>A/New Caledonia/20/99</td>
-            </tr>
-            <tr>
-              <td>A/California/7/2004</td>
-              <td>A/California/7/2004</td>
-            </tr>
-            <tr>
-              <td><strong>A/Wisconsin/67/2005</strong></td>
-              <td></td>
-            </tr>
-            <tr>
-              <td>B/Shanghai/361/2002</td>
-              <td>B/Shanghai/361/2002</td>
-            </tr>
-            <tr>
-              <td><strong>B/Florida/07/2004</strong></td>
-              <td></td>
-            </tr>
-            <tr>
-              <td><strong>B/Ohio/1/2005</strong></td>
-              <td></td>
-            </tr>
-          <tr>
-             <th rowspan="4">2006-2007</td>
-             <td>A/New Caledonia/20/99</td>
-             <td>A/New Caledonia/20/99</td>
-          </tr>
-          <tr>
-             <td><strong>A/Solomon Islands/3/2006</strong></td>
-             <td></td>
-          </tr>
-          <tr>
-             <td>A/Wisconsin/67/2005</td>
-             <td>A/Wisconsin/67/2005</td>
-          </tr>
-          <tr>
-             <td><strong>B/Ohio/1/2005</strong></td>
-             <td><strong>B/Malaysia/2506/2004</strong></td>
-          </tr>
-          <tr>
-          </table>
 
-          </div>
-        </div>
-   </section>
+					<h2>Procedure:</h2>
+					<p>
+					1)
+					</p>
+
+					<h2>Subtypes in the Wild and Vaccine for each Season:</h2>
+					<table style="border: 1px solid white">
+					<tr>
+						 <th>Influenza Season</th>
+						 <th>Subtypes Found</th>
+						 <th>Subtypes in Vaccines</th>
+					</tr>
+					<tr>
+						 <th rowspan="5">2000-2001</th>
+						 <td>A/New Caledonia/20/99</td>
+						 <td>A/New Caledonia/20/99</td>
+					</tr>
+					<tr>
+						<td><strong>A/Bayern/07/95</strong></td>
+						<td></td>
+					</tr>
+					<tr>
+						<td><strong>A/Panama/2007/99</strong></td>
+						<td>A/Moscow/10/99</td>
+					</tr>
+					<tr>
+						<td>B/Beijing/184/93</td>
+						<td>B/Beijing/184/93</td>
+					</tr>
+					<tr>
+						<td><strong>B/Sichuan/379/99</strong></td>
+						<td></td>
+					</tr>
+					<tr>
+						<th rowspan="4">2001-2002</th>
+						<td>A/New Caledonia/20/99</td>
+						<td>A/New Caledonia/20/99</td>
+					</tr>
+					<tr>
+						<td><strong>A/Panama/2007/99</strong></td>
+						<td>A/Moscow/10/99</td>
+					</tr>
+					<tr>
+						<td><strong>B/Yamagata/16/88</strong></td>
+						<td>B/Sichuan/379/99</td>
+					</tr>
+					<tr>
+						<td><strong>B/Victoria/2/87</strong></td>
+						<td></td>
+					</tr>
+						<tr>
+						<th rowspan="4">2002-2003</th>
+						<td>A/New Caledonia/20/99</td>
+						<td>A/New Caledonia/20/99</td>
+					</tr>
+					<tr>
+						<td><strong>A/Panama/2007/99</strong></td>
+						<td>A/Moscow/10/99</td>
+					</tr>
+					<tr>
+						<td>B/Hong Kong/330/01</td>
+						<td>B/Hong Kong/33/01</td>
+					</tr>
+					<tr>
+						<td><strong>B/Sichuan/379/99</strong></td>
+						<td></td>
+					</tr>
+					<tr>
+						 <th rowspan="5">2003-2004</th>
+						 <td>A/New Caledonia/20/99</td>
+						 <td>A/New Caledonia/20/99</td>
+					</tr>
+					<tr>
+						 <td><strong>A/Fujian/411/2002</strong></td>
+						 <td>A/Moscow/10/99</td>
+					</tr>
+					<tr>
+						 <td><strong>A/Panama/2007/99</strong></td>
+						 <td></td>
+					</tr>
+					<tr>
+						 <td>B/Hong Kong/330/01</td>
+						 <td>B/Hong Kong/330/01</td>
+					</tr>
+					<tr>
+						 <td><strong>B/Sichuan/379/99</strong></td>
+						 <td></td>
+					</tr>
+					<tr>
+						<th rowspan="5">2004-2005</th>
+						<td>A/New Caledonia/20/99</td>
+						<td>A/New Caledonia/20/99</td>
+					</tr>
+					<tr>
+						<td><strong>A/Wyoming/3/2003</strong></td>
+						<td>A/Fujian/411/2002</td>
+					</tr>
+					<tr>
+						<td><strong>A/California/7/2004</strong></td>
+						<td></td>
+					</tr>
+					<tr>
+						<td><strong>B/Yamagata/16/88</strong></td>
+						<td>B/Shanghai/361/2002</td>
+					</tr>
+					<tr>
+						<td><strong>B/Victoria/2/87</strong></td>
+						<td></td>
+					</tr>
+						<tr>
+							<th rowspan="6">2005-2006</th>
+							<td>A/New Caledonia/20/99</td>
+							<td>A/New Caledonia/20/99</td>
+						</tr>
+						<tr>
+							<td>A/California/7/2004</td>
+							<td>A/California/7/2004</td>
+						</tr>
+						<tr>
+							<td><strong>A/Wisconsin/67/2005</strong></td>
+							<td></td>
+						</tr>
+						<tr>
+							<td>B/Shanghai/361/2002</td>
+							<td>B/Shanghai/361/2002</td>
+						</tr>
+						<tr>
+							<td><strong>B/Florida/07/2004</strong></td>
+							<td></td>
+						</tr>
+						<tr>
+							<td><strong>B/Ohio/1/2005</strong></td>
+							<td></td>
+						</tr>
+					<tr>
+						 <th rowspan="4">2006-2007</th>
+						 <td>A/New Caledonia/20/99</td>
+						 <td>A/New Caledonia/20/99</td>
+					</tr>
+					<tr>
+						 <td><strong>A/Solomon Islands/3/2006</strong></td>
+						 <td></td>
+					</tr>
+					<tr>
+						 <td>A/Wisconsin/67/2005</td>
+						 <td>A/Wisconsin/67/2005</td>
+					</tr>
+					<tr>
+						 <td><strong>B/Ohio/1/2005</strong></td>
+						 <td>B/Malaysia/2506/2004</td>
+					</tr>
+					</table>
+
+					</div>
+				</div>
+	 </section>
 {% endblock %}
