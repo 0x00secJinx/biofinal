@@ -1,0 +1,68 @@
+{% extends "bootstrap/base.html" %}
+
+{% block title %}
+Experiment - AP Bio e-portfolio
+{% endblock %}
+
+{% block metas %}
+<meta charset='utf-8'>
+<meta name="description" content="">
+<meta name="author" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+{% endblock %}
+
+{% block styles %}
+<link rel="stylesheet" href="{{url_for('.static', filename='css/default.css')}}">
+<link rel="stylesheet" href="{{url_for('.static', filename='css/layout.css')}}">
+<link rel="stylesheet" href="{{url_for('.static', filename='css/media-queries.css')}}">
+<link rel="stylesheet" href="{{url_for('.static', filename='css/magnific-popup.css')}}">
+<link rel="shortcut icon" href="{{url_for('.static', filename='favicon.png')}}" >
+{% endblock %}
+
+{% block content %}
+<style type="text/css">
+table, th, td {
+	border: 1px solid white;
+}
+td, th {
+	padding: 10px;
+}
+</style>
+<script src="{{url_for('.static', filename='js/modernizr.js')}}"></script>
+	 <header id="home">
+
+			<nav id="nav-wrap">
+
+				 <a class="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
+					<a class="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
+
+				 <ul id="nav" class="nav">
+						<li><a class="smoothscroll" href="/">Home</a></li>
+						<li><a class="smoothscroll" href="/#introduction">Introduction</a></li>
+						 <li class="current"><a class="smoothscroll" href="#">Experiment</a></li>
+						<li><a class="smoothscroll" href="/artifacts">Artifacts</a></li>
+						<li><a class="smoothscroll" href="/reflections">Reflections</a></li>
+				 </ul>
+
+			</nav>
+
+			<div class="row banner">
+				<div class="banner-text">
+						<h1 class="responsive-headline">Experiment</h1>
+				</div>
+			</div>
+	 </header>
+	 <section id="introduction">
+			<div class="row">
+				 <div class="three columns main-col">
+
+				 </div>
+				 <div class="nine columns main-col">
+					<h2>BLASTing the Flu Virus</h2>
+					<p>Experiment based on the procedure at <a class="exp" href="https://www.sciencebuddies.org/science-fair-projects/project-ideas/Genom_p003/genetics-genomics/blasting-flu-viruses">Science Buddies</a></p>
+
+
+				 </div>
+			</div>
+	 </section>
+{% endblock %}

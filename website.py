@@ -20,7 +20,7 @@ app.config['EXPLAIN_TEMPLATE_LOADING'] = True
 @app.route('/', methods=['GET', 'POST'])
 def index():
     q = quotes[randint(0, len(quotes) - 1)]
-    return render_template('update.html', quote=q)
+    return render_template('index.html', quote=q)
 
 
 @app.route('/experiment', methods=['GET', 'POST'])
