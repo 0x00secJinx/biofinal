@@ -55,9 +55,29 @@ td, th {
 	 <section id="introduction">
 			<div class="row">
 				 <div class="nine columns main-col">
-					<h2>BLASTing the Flu Virus</h2>
+
+				<h2>BLASTing the Flu Virus</h2>
 					<p>Experiment based on the procedure at <a class="exp" href="https://www.sciencebuddies.org/science-fair-projects/project-ideas/Genom_p003/genetics-genomics/blasting-flu-viruses">Science Buddies</a></p>
 						<hr />
+				 	<h2>Brainstorming</h2>
+				 	<p>
+				 		This section is a place to put my thoughts down. For my experiment, I am looking for something that interests me. This is where I can put my thoughts
+				 		on what I want to do. So, what do I like to do? Program, definitely. I love to use computers. I like
+				 		to play music, but I don't think a biology project could really use music. Searching online, and then my
+				 		teacher pointed me to a website called Science Buddies for some bioinformatics experiments. Looking at the
+				 		experiments, the one called BLASTing the flu virus seems interesting.
+				 	</p>
+				 	<hr />
+
+				 	<h2>Journal:</h2>
+				 	<p>
+				 		<b>May 2nd, 2018:</b> I started the experiment. I started by gathering the H protein accession numbers, then compared them with blast. Many of the viruses did
+				 		not have a full H protein sequence available.
+				 		<br />
+				 		<b>May 3rd, 2018</b> I gathered the N protein accession numbers, then compared the appropriate ones with BLAST. Many more of these viruses had a complete protein sequence than the H proteins.
+				 	</p>
+
+				 	<hr />
 						<h2>Background:</h2>
 						<p>Influenza is a virus that affects the upper respiratory tract. Common in cold and dry weather, the virus has a 'season'. There are 3 types of the virus: type A, type B, and type C.
 							Type A can spread quickly and in many mammals while type B and C only affect humans. Type C does no real damage as it causes a mild infection, while type B can be devastating.
@@ -78,41 +98,79 @@ td, th {
 
 					<h2>Procedure:</h2>
 					<p>
-					1) Using
+					1) Using the chart from <a href="https://www.sciencebuddies.org/science-fair-projects/project-ideas/Genom_p003/genetics-genomics/blasting-flu-viruses#procedure">Science Buddies</a> determine the strains found in the wild that are not in the vaccine for that year. (They are bolded on the chart)
+					<br />
+					2) Record the names of each strain, and their type. Also record the matching type found in the vaccine. (Leave room for accession number, will get later)
+					<br />
+					3) For each strain, use the <a href="https://www.ncbi.nlm.nih.gov/genbank/">GenBank database</a> to find the protein sequences. Beside the search bar at the top of the page, select protein from the dropdown menu and insert the name of the flu strain in the search box and click go.
+					<br />
+					4) Look for a search result that says “hemagglutinin [*virus name*]” and “neuraminidase [*virus name*]” Make sure they do NOT have “partial” in the name! Click on the search result you want. Listed will be an Accession number. Record that number with the name and the type of flu strain for both the H and N proteins. If you cannot find the sequence for a protein, skip it.
+					<br />
+					5) Using <a href="https://blast.ncbi.nlm.nih.gov/Blast.cgi?PAGE=Proteins&PROGRAM=blastp&BLAST_PROGRAMS=blastp&PAGE_TYPE=BlastSearch&BLAST_SPEC=blast2seq&DATABASE=n/a">BLAST</a>, insert the accession numbers of the H protein from the subtype in the wild in one box and the number of the subtype in the vaccine, then click the "Blast!" button.
+					<br />
+					6) A page will load and there will be a percentage in a chart that says ident over it. This is the amount of amino acids that match up in a sequence in the two proteins. Record this percentage in the chart.
+					<br />
+					7) Repeat steps 5 and 6 for all the flu virus wild-type vs vaccines that are the same type and in the same season.
+					<br />
+					8) Repeat steps 5, 6 and 7 for the N proteins
+					<br />
 					</p>
 
 					<h2>Data:</h2>
 					<h2>H Proteins:</h2>
 					<table>
 					<th colspan="2">Wild Flu v. Vaccine</th>
-					<tr><td>Fujian v Moscow </td><td>96%</td></tr>
-					<tr><td>Wisconsin v California</td><td>99%</td></tr>
-					<tr><td>Yamataga v Florida </td><td>96%</td></tr>
-					<tr><td>Victoria v Florida </td><td>95%</td></tr>
-					<tr><td>Panama v Moscow </td><td>98%</td></tr>
-					<tr><td>Malaysia v Yamataga</td><td>94%</td></tr>
-					<tr><td>Malaysia v Florida </td><td>93%</td></tr>
+					<tr><td>Wisconsin v California	</td><td>99%</td></tr>
+					<tr><td>Panama v Moscow 		</td><td>98%</td></tr>
+					<tr><td>Fujian v Moscow 		</td><td>96%</td></tr>
+					<tr><td>Yamataga v Florida 		</td><td>96%</td></tr>
+					<tr><td>Victoria v Florida 		</td><td>95%</td></tr>
+					<tr><td>Malaysia v Yamataga		</td><td>94%</td></tr>
+					<tr><td>Malaysia v Florida 		</td><td>93%</td></tr>
 					</table>
 
 					<h2>N Proteins:</h2>
 					<table>
 					<th colspan="2">Wild Flu v. Vaccine</th>
-					<tr><td></td> <td></td></tr>
-					<tr><td></td> <td></td></tr>
-					<tr><td></td> <td></td></tr>
-					<tr><td></td> <td></td></tr>
-					<tr><td></td> <td></td></tr>
-					<tr><td></td> <td></td></tr>
-					<tr><td></td> <td></td></tr>
-					<tr><td></td> <td></td></tr>
-					<tr><td></td> <td></td></tr>
-					<tr><td></td> <td></td></tr>
-					<tr><td></td> <td></td></tr>
-					<tr><td></td> <td></td></tr>
+					<tr><td>Wisconsin v California</td> <td>99%</td></tr>
+					<tr><td>Panama v Moscow</td> 	 	<td>98%</td></tr>
+					<tr><td>Fujian v Moscow</td> 	 	<td>98%</td></tr>
+					<tr><td>Beijing v Sichuan</td> 	 	<td>97%</td></tr>
+					<tr><td>Sichuan v Yamataga</td>  	<td>96%</td></tr>
+					<tr><td>Sichuan v Victoria</td>  	<td>95%</td></tr>
+					<tr><td>Fujian v California</td> 	<td>99%</td></tr>
+					<tr><td>Shanghai v Yamataga</td> 	<td>95%</td></tr>
+					<tr><td>Victoria v Shanghai</td> 	<td>94%</td></tr>
+					<tr><td>Florida v Shanghai </td> 	<td>97%</td></tr>
+					<tr><td>Ohio v Shanghai</td> 		<td>98%</td></tr>
+					<tr><td>Ohio v Malaysia</td> 		<td>98%</td></tr>
 					</table>
+
+					<p>To see the full data page I have, visit <a href="/full_data">here</a>.
 
 					<hr />
 					<h2>Analysis:</h2>
+					<p>
+					Many of the viruses had a similar structure and amino acid sequences on both proteins.
+					The lowest percentage of match was 93% with the Malaysia virus and the Florida Virus with the H protein.
+					The highest percentage of match was 99% in the H protein between Wisconsin v California and in the N protein, between Wisconsin and California.
+					The comparison between Wisconsin v California, Fujian v Moscow and Panama v Moscow are the only results we can reliably predict the effectiveness.
+					</p>
+
+					<hr />
+					<h2>Conclusion:</h2>
+					<p>
+						Due to there being only three comparisons with both the H and N proteins, and there being no way to
+						actually measure effectiveness, I have to predict the effectiveness. From the data collected, I am
+						concluding that the experiment supports the hypothesis. With the percentage of the two proteins of
+						the Wisconsin and California virus both being 99%, this vaccine would be very effective against the
+						strain. This means that there are limited amount of mutations between the proteins and that they are
+						almost identical, so the immune system should have no problem protecting the body from the virus. The
+						flu vaccine containing the Moscow virus and the season with Panama wildtype, the percentage between the
+						proteins are 98% which I conclude would be effective against the wildtypes. The other virus percents that
+						I collected do not have both proteins to compare so I cannot conclude whether or not the vaccine would
+						be affected.
+					</p>
 
 					</div>
 				</div>

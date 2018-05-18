@@ -46,5 +46,15 @@ def remind():
 def reflections():
 	return render_template('reflections.html')
 
+@app.route('/full_data', methods=['GET', 'POST'])
+def fulldata():
+	data = ""
+	with open('templates/strains.txt', 'r') as tmp:
+		tmp_data = tmp.readlines()
+	for i in tmp_data:
+		data += i
+		data += "<br />"
+	return data
+
 if __name__ == '__main__':
     app.run()
